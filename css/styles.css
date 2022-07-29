@@ -89,7 +89,9 @@ header{
     text-decoration: none;
 }
 img{
-    display: block;
+    display:block;
+    max-width: 100%;
+    height: auto;
 }
 .header-link:hover,
 .header-link:focus,
@@ -235,6 +237,8 @@ img{
     line-height: 26px;
     text-align: center;
     color: var(--title-text-color);
+
+    padding: 6px 22px;
 }
 .nav-btn:focus,
 .nav-btn:hover{
@@ -246,6 +250,9 @@ img{
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+.btn-list{
+    padding-bottom: 50px;
 }
 .project-item-title{
     font-weight: 700;
@@ -259,4 +266,17 @@ img{
     font-size: 16px;
     line-height: 1.86;
     color: var(--primary-text-color) ;
+}
+.project-text{
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.project-item-title{
+    padding-bottom: 4px;
+}
+.project-item{
+   
+    width: 370px;
 }
