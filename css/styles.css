@@ -89,9 +89,10 @@ header{
     text-decoration: none;
 }
 img{
-    display:block;
+    display: block;
     max-width: 100%;
     height: auto;
+    
 }
 .header-link:hover,
 .header-link:focus,
@@ -176,16 +177,13 @@ img{
     margin-bottom: 50px;
 }
 
-
-.team{
-    background-color: var(--additional-background-color);
-}
 .team-text{
     padding-top:30px;
     padding-bottom: 30px;
 }
 .team-item{
     background-color: var(--primary-background-color);
+    width: 270px;
 }
 .team-list-title{
     font-weight: 500;
@@ -277,6 +275,9 @@ img{
     padding-bottom: 4px;
 }
 .project-item{
-   
-    width: 370px;
+   width: 370px; 
 }
+.color:nth-child(2n){
+    background-color: var(--additional-background-color);
+}
+
