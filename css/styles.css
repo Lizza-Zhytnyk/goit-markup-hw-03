@@ -20,7 +20,7 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;   
+    margin: 0 auto 30px   
 }
 
 body{
@@ -31,8 +31,8 @@ body{
 } 
 
 header{
-    padding-top: 25px;
-    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 
 }
@@ -60,7 +60,8 @@ header{
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-color);
-
+}
+.header .logo{
     margin-right: 93px;
 }
 .logo-accent{
@@ -72,7 +73,6 @@ header{
 .header .container {
     display: flex;
     align-items: center;
-    
 }
 .header-list{
     display: flex;
@@ -119,6 +119,8 @@ img{
 }
 .hero{
     background-color: var(--secondary-background-color);
+    padding: 200px 0;
+    text-align: center;
 }
 .hero-title{
     font-weight: 900;
@@ -132,10 +134,6 @@ img{
 .btn{
     cursor: pointer;
     border: none;
-}
-.hero-content{
-    padding: 200px 0;
-    text-align: center; 
 }
 .hero-title{
     max-width: 696px;
@@ -179,7 +177,7 @@ img{
     text-transform: uppercase;
     color: var(--title-text-color);
 
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .descr-text{
     font-weight: 400;
@@ -203,8 +201,7 @@ img{
 }
 
 .team-text{
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding: 30px 15px;
 }
 .team-item{
     background-color: var(--primary-background-color);
@@ -216,7 +213,7 @@ img{
     line-height: 1.19;
     color: var(--title-text-color);
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .team-list-text{
     text-align: center;
@@ -232,13 +229,13 @@ img{
 }
 .footer .logo{
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .address{
     font-style:normal;
 }
-.address-item{
-    padding-bottom: 9px;
+.address-item:not(:last-child){
+    margin-bottom: 9px;
 }
 .address-map{
     font-weight: 400;
@@ -278,7 +275,7 @@ img{
     display: flex;
     column-gap: 8px;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 .project-item-title{
@@ -287,6 +284,7 @@ img{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+    margin-bottom: 4px;
 }
 .project-item-text{
     font-weight: 400;
@@ -299,9 +297,6 @@ img{
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
-}
-.project-item-title{
-    padding-bottom: 4px;
 }
 .project-item{
    width: 370px; 
